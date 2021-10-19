@@ -35,6 +35,16 @@ public class LineComparision {
 		double Line2=Math.sqrt((x4-x3)*(x4-x3)+(y4-y3)*(y4-y3));
 		System.out.println("Length of Line2 = "+Line2);
 		
+		// to Check Weather the lines are equal are not by using equals(); method 
+		// to check this we have to convert the datatype double to string 
+		
+		String str1 = Double.toString(Line1);
+		String str2 = Double.toString(Line2);
+		System.out.println("Is both the lines Line1 and Line2 are equal "+str1.equals(str2));
+		
+		
+		
+		
 
 	}
 
