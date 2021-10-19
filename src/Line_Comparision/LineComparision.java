@@ -42,8 +42,22 @@ public class LineComparision {
 		String str2 = Double.toString(Line2);
 		System.out.println("Is both the lines Line1 and Line2 are equal "+str1.equals(str2));
 		
+		//comparing both the lines 
 		
-		
+		int a = str1.compareTo(str2);
+		if(a<0)
+		{
+			System.out.println("Line1 is Smaller then Line2 ");
+			
+		}
+		else if(a>0)
+		{
+			System.out.println("Line1 is Greater then Line2 ");
+		}
+		else 
+		{
+			System.out.println("Both the lines Line1 and Line2 are equal");
+		}
 		
 
 	}
